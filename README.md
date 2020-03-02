@@ -1,5 +1,7 @@
 # fs-finder
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ItzRabbs/fs-finder.svg)](https://greenkeeper.io/)
+
 File system finder inspired by finder in [Nette framework](http://doc.nette.org/en/finder).
 
 ## Help
