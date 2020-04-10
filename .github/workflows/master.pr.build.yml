@@ -1,12 +1,13 @@
-name: NPM Publish
+name: Build on PR
 
-on: [push]
+on:
+  pull_request:
+    branches:
+      - master
 
 jobs:
-  deploy:
-    
+  run:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
@@ -14,8 +15,4 @@ jobs:
           node-version: 12
       - run: npm install
       - run: npm run build --if-present
-#       - run: npm test
-      - uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_AUTH_TOKEN }}
-    
+#         - run: npm test
