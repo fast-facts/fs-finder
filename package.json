@@ -36,7 +36,7 @@
 		"chai": "~4.3.0",
 		"coffeescript": "^2.5.1",
 		"fs-mock": "~1.2.1",
-		"mocha": "~8.3.0"
+		"mocha": "~8.4.0"
 	},
 	"scripts": {
 		"build-and-test": "npm run build && npm run test",
