@@ -25,6 +25,7 @@
 		"node": ">=0.9"
 	},
 	"main": "./lib/Finder.js",
+	"types": "./lib/index.d.ts",
 	"dependencies": {
 		"async": "~3.2.0",
 		"escape-regexp": "~0.0.1",
@@ -33,14 +34,19 @@
 		"q": "~1.5.1"
 	},
 	"devDependencies": {
+		"@types/fs-finder": "^1.8.30",
 		"chai": "~4.3.0",
 		"coffeescript": "^2.5.1",
+		"copyfiles": "^2.4.1",
 		"fs-mock": "~1.2.1",
 		"mocha": "~10.0.0"
 	},
 	"scripts": {
+		"copy:files": "copyfiles package.json README.md LICENSE lib",
+		"copy:types": "copyfiles -u 3 \"node_modules/@types/fs-finder/*.d.ts\" lib",
 		"build-and-test": "npm run build && npm run test",
-		"test": "mocha ./test/index.js --reporter spec",
-		"build": "coffee -co ./test/lib ./test/src"
+		"test": "coffee -co ./test/lib ./test/src && mocha ./test/index.js --reporter spec",
+		"build": "coffee -co ./lib ./src",
+		"postbuild": "npm run copy:files && npm run copy:types"
 	}
 }
