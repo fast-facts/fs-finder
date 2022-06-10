@@ -20,6 +20,7 @@ jobs:
       
       - uses: codfish/semantic-release-action@v1
         with:
+          repository_url: https://github.com/itzrabbs/fs-finder.git
           plugins: |
             [
               "@semantic-release/commit-analyzer",
