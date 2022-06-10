@@ -24,8 +24,8 @@
 	"engines": {
 		"node": ">=0.9"
 	},
-	"main": "./lib/Finder.js",
-	"types": "./lib/index.d.ts",
+	"main": "./Finder.js",
+	"types": "./index.d.ts",
 	"dependencies": {
 		"async": "~3.2.0",
 		"escape-regexp": "~0.0.1",
