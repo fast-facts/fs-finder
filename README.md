@@ -1,6 +1,20 @@
-# fs-finder
+This repo is solely meant for automated updates of dependencies found in Carrooi's [Node-FsFinder](https://github.com/Carrooi/Node-FsFinder) package.
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ItzRabbs/fs-finder.svg)](https://greenkeeper.io/)
+PRs will not be accepted for new features or bug fixes. Reach out to the original maintainer.
+
+```
+npm install fs-finder-updated
+```
+
+---
+
+[![NPM version](https://img.shields.io/npm/v/fs-finder.svg?style=flat-square)](http://badge.fury.io/js/fs-finder)
+[![Dependency Status](https://img.shields.io/gemnasium/Carrooi/Node-FsFinder.svg?style=flat-square)](https://gemnasium.com/Carrooi/Node-FsFinder)
+[![Build Status](https://img.shields.io/travis/Carrooi/Node-FsFinder.svg?style=flat-square)](https://travis-ci.org/Carrooi/Node-FsFinder)
+
+[![Donate](https://img.shields.io/badge/donate-PayPal-brightgreen.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2CQPWKW8D3BWS)
+
+# fs-finder
 
 File system finder inspired by finder in [Nette framework](http://doc.nette.org/en/finder).
 
@@ -229,9 +243,6 @@ afterEach(function() {
 In fs variable is now mocked fs module, so if you need to use fs module in your tests, just use this one.
 
 ## Changelog
-
-* 2.0.0
-	+ Updated dependencies
 
 * 1.8.1
 	+ Move under Carrooi organization

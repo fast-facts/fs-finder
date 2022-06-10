@@ -1,9 +1,9 @@
 {
-	"name": "@itzrabbs/fs-finder",
+	"name": "fs-finder-updated",
 	"description": "File system recursive finder",
-	"version": "2.0.1",
+	"version": "0.0.0-semantic-release",
 	"author": {
-		"name": "ItzRabbs"
+		"name": "Carrooi"
 	},
 	"keywords": [
 		"file",
@@ -14,13 +14,13 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:ItzRabbs/fs-finder.git"
+		"url": "git@github.com:Carrooi/fs-finder.git"
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/itzrabbs/fs-finder.git"
+		"url": "https://github.com/Carrooi/fs-finder.git"
 	},
-	"homepage": "https://github.com/itzrabbs/fs-finder.git",
+	"homepage": "https://github.com/Carrooi/fs-finder.git",
 	"engines": {
 		"node": ">=0.9"
 	},
