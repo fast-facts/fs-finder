@@ -3,7 +3,7 @@ name: Publish
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: "0 9 * * *"
 
 jobs:
   run:
@@ -16,11 +16,11 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run build --if-present
-#         - run: npm test
-      
+      #         - run: npm test
+
       - uses: codfish/semantic-release-action@v1
         with:
-          repository_url: https://github.com/itzrabbs/fs-finder.git
+          repository_url: https://github.com/${{github.REPOSITORY}}.git
           plugins: |
             [
               "@semantic-release/commit-analyzer",
