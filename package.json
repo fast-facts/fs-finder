@@ -3,7 +3,7 @@
 	"description": "File system recursive finder",
 	"version": "0.0.0-semantic-release",
 	"author": {
-		"name": "Carrooi"
+		"name": "RabbitPlayground"
 	},
 	"keywords": [
 		"file",
@@ -14,13 +14,13 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:Carrooi/Node-FsFinder.git"
+		"url": "git@github.com:RabbitPlayground/Node-FsFinder.git"
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/Carrooi/Node-FsFinder.git"
+		"url": "https://github.com/RabbitPlayground/Node-FsFinder.git"
 	},
-	"homepage": "https://github.com/Carrooi/Node-FsFinder.git",
+	"homepage": "https://github.com/RabbitPlayground/Node-FsFinder.git",
 	"engines": {
 		"node": ">=0.9"
 	},
