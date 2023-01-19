@@ -14,13 +14,13 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:fast-facts/Node-FsFinder.git"
+		"url": "git@github.com:fast-facts/fs-finder.git"
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/fast-facts/Node-FsFinder.git"
+		"url": "https://github.com/fast-facts/fs-finder.git"
 	},
-	"homepage": "https://github.com/fast-facts/Node-FsFinder.git",
+	"homepage": "https://github.com/fast-facts/fs-finder.git",
 	"engines": {
 		"node": ">=0.9"
 	},
