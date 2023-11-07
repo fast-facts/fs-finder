@@ -34,7 +34,7 @@
 		"q": "~1.5.1"
 	},
 	"devDependencies": {
-		"@types/fs-finder": "^1.8.32",
+		"@types/fs-finder": "^1.8.33",
 		"chai": "~4.3.10",
 		"coffeescript": "^2.5.1",
 		"copyfiles": "^2.4.1",
