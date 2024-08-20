@@ -27,7 +27,7 @@
 	"main": "./Finder.js",
 	"types": "./index.d.ts",
 	"dependencies": {
-		"async": "~3.2.5",
+		"async": "~3.2.6",
 		"escape-regexp": "~0.0.1",
 		"moment": "^2.30.1",
 		"operator-compare": "~1.0.3",
