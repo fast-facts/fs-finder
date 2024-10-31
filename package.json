@@ -39,7 +39,7 @@
 		"coffeescript": "^2.5.1",
 		"copyfiles": "^2.4.1",
 		"fs-mock": "~1.2.1",
-		"mocha": "~10.8.1"
+		"mocha": "~10.8.2"
 	},
 	"scripts": {
 		"copy:files": "copyfiles package.json README.md LICENSE lib",
