@@ -35,7 +35,7 @@
 	},
 	"devDependencies": {
 		"@types/fs-finder": "^1.8.33",
-		"chai": "~6.0.1",
+		"chai": "~6.2.0",
 		"coffeescript": "^2.5.1",
 		"copyfiles": "^2.4.1",
 		"fs-mock": "~1.2.1",
